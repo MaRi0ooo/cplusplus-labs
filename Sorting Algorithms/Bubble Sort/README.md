@@ -7,7 +7,5 @@
 > - 1.1 Arrange all the elements of the array in descending order.
 > 
 > - 1.2 Arrange elements with negative values ​​in ascending order and positive ones in descending order.
-> 
-> - 1.3 Arrange the first 10 elements of the array in descending order. The other 10 in ascending order.
 
 #### <p align=center> Display the initial (not sorted array) and sorted. </p>
