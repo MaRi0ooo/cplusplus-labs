@@ -2,7 +2,7 @@
 
 #### <p align=center> Given an array of integers consisting of 20 elements, and filled randomly in the range of -99 to +99. </p>
 
-#### Using selection sort, do the following:
+#### Using insertion sort, do the following:
 
 > - 1.1 Arrange all the elements of the array in descending order.
 > 
