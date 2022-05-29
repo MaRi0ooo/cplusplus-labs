@@ -7,7 +7,5 @@
 > - 1.1 Arrange all the elements of the array in descending order.
 > 
 > - 1.2 Arrange elements with negative values ​​in ascending order and positive ones in descending order.
->
-> - 1.3 Arrange in ascending order the elements of the array, which stand in pairs and in descending order those elements that stand in unpaired places.
 
 #### <p align=center> Display the initial (not sorted array) and sorted. </p>
