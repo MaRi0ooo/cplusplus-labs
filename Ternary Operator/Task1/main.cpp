@@ -3,8 +3,7 @@
 int main(int argc, const char **argv)
 {
     int num = 0, degree = 0;
-    std::cout << "Enter num: ";
-    std::cin >> num;
+    std::cout << "Enter num: "; std::cin >> num;
 
     // 1
     ((num == 0) ? std::cout << num << " is equal 0!\n" : num > 0 ? std::cout << num << " is positive!\n"
