@@ -39,7 +39,7 @@ max = ((x > y) ? x : y);
 ```
 
 > ### 🔴**IMPORTANT**❗🔴
-> ## Always parenthesize the conditional part of a ternary operator, and preferably the entire ternary operator.
+> Always parenthesize the conditional part of a ternary operator, and preferably the entire ternary operator.
 
 ### **Example**
 
@@ -54,10 +54,6 @@ int main()
     ((num1 % 2 == 0) ? std::cout << num1 << " is even!" : std::cout << num1 << " is odd!");
     return 0;
 }
-```
 
-### **Output**
-
-```text
-8 is even!
+// Output: 8 is even!
 ```
