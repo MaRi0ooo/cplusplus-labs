@@ -38,8 +38,9 @@ max = (x > y) ? x : y;
 max = ((x > y) ? x : y);
 ```
 
-> ### 🔴**IMPORTANT**❗🔴
-> Always parenthesize the conditional part of a ternary operator, and preferably the entire ternary operator.
+### 🔴**IMPORTANT**❗🔴
+
+- **Always parenthesize the conditional part of a ternary operator, and preferably the entire ternary operator.**
 
 ### **Example**
 
