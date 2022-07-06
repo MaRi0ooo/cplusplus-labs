@@ -4,9 +4,8 @@
 
 int main(int argc, const char **argv)
 {
-    srand(static_cast<unsigned int>(time(0)));
-
-    const int ROW = 5, COL = 5;
+    int cnt = 0, c1 = 0, c2 = 0, sum = 0;
+    const int ROW = 4, COL = 5;
     int A[ROW][COL] = {{}};
 
     // Matrix filling
@@ -22,25 +21,21 @@ int main(int argc, const char **argv)
         std::cout << '\n';
     }
 
-    std::cout << "\nTask 1: \n\n";
-    int sum = 0;
-    for (int i = 0; i < ROW; ++i)
+    std::cout << "\nEnter the c1: "; std::cin >> c1;
+    std::cout << "Enter the c2: "; std::cin >> c2;
+
+    std::cout << "\nTask 5: \n\n";
+    for (int i = 0; i < c1; ++i)
     {
-        for (int j = 0; j < COL; ++j)
-        {
-            if ((i - 1) >= j)
-            {
-                std::cout << A[i][j] << ' ';
-                sum += A[i][j];
-            }
+        for (int j = 0; j < c2; ++j)
+            if ((i == c1) && (j == c2))
+                cnt++;
             else
-            {
-                std::cout << "* ";
-            }
-        }
+                std::cout << A[i][j] << ' ';
         std::cout << '\n';
     }
-    std::cout << "\nThe sum of the elements\nbelow the main diagonal: " << sum << '\n';
+    sum = (c1 * c2);
+    std::cout << "\nNumber of matrix elements that lie outside the interval [c1,c2]: " << sum - cnt << '\n';
 
     return 0;
 }
