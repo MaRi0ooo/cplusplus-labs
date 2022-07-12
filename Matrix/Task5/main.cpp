@@ -4,6 +4,8 @@
 
 int main(int argc, const char **argv)
 {
+    srand(static_cast<unsigned int>(time(0)));
+    
     int cnt = 0, c1 = 0, c2 = 0, sum = 0;
     const int ROW = 4, COL = 5;
     int A[ROW][COL] = {{}};
