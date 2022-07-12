@@ -8,9 +8,9 @@ int main(int argc, const char **argv)
 
     int **mat, N, M;
 
-    std::cout << "Enter the number of rows: ";
+    std::cout << "\nEnter num of rows: ";
     std::cin >> N;
-    std::cout << "Enter number of columns: ";
+    std::cout << "Enter num of columns: ";
     std::cin >> M;
 
     // Allocation of memory for the matrix
@@ -45,7 +45,7 @@ int main(int argc, const char **argv)
             }
         }
     }
-    std::cout << "Min element " << min << " in " << location[0] << " row and " << location[1] << " column";
+    std::cout << "Min element " << min << " in " << location[0] << " row | " << location[1] << " column";
 
     // Freeing up memory for the allocated array
     for (int i = 0; i < N; ++i)

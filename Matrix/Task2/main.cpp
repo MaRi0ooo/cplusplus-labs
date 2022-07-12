@@ -8,9 +8,9 @@ int main(int argc, const char **argv)
 
     int **A, N, M;
 
-    std::cout << "Enter the number of rows: ";
+    std::cout << "\nEnter num of rows: ";
     std::cin >> N;
-    std::cout << "Enter number of columns: ";
+    std::cout << "Enter num of columns: ";
     std::cin >> M;
 
     // Allocation of memory for the matrix
